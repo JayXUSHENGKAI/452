@@ -1,0 +1,205 @@
+/* Jay Xu ShengKai*/
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #8e8783;
+}
+
+/* Navigation bar style */
+.navcontain {
+    background-color: #4aaaca;
+    padding: 10px 0;
+}
+
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar li {
+    display: inline;
+}
+
+.navbar a {
+    color: rgb(236, 229, 229);
+    text-decoration: none;
+    padding: 14px 20px;
+    display: inline-block;
+}
+
+.navbar a:hover {
+    background-color: #efeded;
+}
+
+/* Homepage Content Style */
+.vedioscontact {
+    position: relative;
+    height: 500px;
+    background-image: url('img/huasungbackgroundvedio.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.vedioscontact1 {
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translateY(-50%);
+    color: white;
+}
+
+.vedioscontact1 p {
+    font-size: 2rem;
+}
+
+.vedioscontact1 button {
+    background-color: #8c3b05;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.vedioscontact1 button:hover {
+    background-color: #ff3300;
+}
+
+.homepagetextandimg {
+    display: flex;
+    padding: 30px;
+    justify-content: space-around;
+}
+
+.homepageimg img {
+    max-width: 450px;
+    border-radius: 50px;
+}
+
+.homepagetext {
+    max-width: 600px;
+}
+
+.homepagetext h1 {
+    font-size: 2.5rem;
+    color: #f0eaea;
+}
+
+.homepagetext p {
+    font-size: 1.2rem;
+    color: #f1e7e7;
+}
+
+/* Footer Style */
+.site-footer {
+    background-color: #43a0ba;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.product1div {  
+    display: flex;  
+    align-items: center;  
+    justify-content: space-between;  
+    padding: 30px;  
+    border: 1px solid #ccc; /* Optional, for visual effect */  
+    margin: 30px 0; /* Optional, for visual effect */  
+    width: fit-content; /* Adapt the width of the container to the contents */  
+}  
+  
+.product1div img {  
+    max-width: 300px; /* Limit the maximum width of the image, which can be adjusted as needed */  
+    max-height: 300px; /* Limit the maximum height of the image, you can adjust it as you need */  
+}  
+  
+.product1div p {  
+    margin-left:50px; /* Spacing between image and description */  
+    color: white; /* Keep text color */  
+    flex: 1; /* Let the description take up the remaining space */  
+    text-align: left; /* Text Alignment */  
+}  
+  
+.product1div button {  
+    margin-left: auto; /* Push the button to the right */  
+}
+/* Blog section style */  
+.blog-section {
+    padding: 20px;
+    max-width: 1300px;
+    margin: 20px auto;
+    background-color: rgb(203, 192, 192);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.blog-section h1 {
+    margin-top: 0;
+}
+
+.blog-section.subtitle {
+    color: #666;
+    margin: 20px 0 30px;
+}
+
+.blog-article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.blog-image {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.blog-article h2 {
+    margin: 0 0 10px;
+}
+
+.blog-article p {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.read-more {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #ff6600;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.read-more:hover {
+    background-color: #ff3300;
+}
+
+.support-images {
+    margin: 20px 0;
+}
+
+.support-images img {
+    height: 300px;
+    margin-right: 12px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.support-images img:last-child {
+    margin-right: 0;
+}
+
+.support-images img:hover {
+    transform: scale(1.05); /* Zoom in on mouse hover */
+}
