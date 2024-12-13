@@ -11,7 +11,9 @@ body {
     background-color: #4aaaca;
     padding: 10px 0;
 }
-
+div {
+    text-align: center; /* 使内部的行内块元素（如图片）水平居中 */
+}
 .navbar {
     list-style-type: none;
     margin: 0;
@@ -103,30 +105,37 @@ body {
     bottom: 0;
     width: 100%;
 }
-.product1div {  
-    display: flex;  
-    align-items: center;  
-    justify-content: space-between;  
-    padding: 30px;  
-    border: 1px solid #ccc; /* Optional, for visual effect */  
-    margin: 30px 0; /* Optional, for visual effect */  
-    width: fit-content; /* Adapt the width of the container to the contents */  
-}  
-  
-.product1div img {  
-    max-width: 300px; /* Limit the maximum width of the image, which can be adjusted as needed */  
-    max-height: 300px; /* Limit the maximum height of the image, you can adjust it as you need */  
-}  
-  
-.product1div p {  
-    margin-left:50px; /* Spacing between image and description */  
-    color: white; /* Keep text color */  
-    flex: 1; /* Let the description take up the remaining space */  
-    text-align: left; /* Text Alignment */  
-}  
-  
-.product1div button {  
-    margin-left: auto; /* Push the button to the right */  
+.container {
+    width: 45%; /* 根据实际需求设置容器宽度，也可以是其他合适的值，比如固定像素值等 */
+    margin: 0 auto; /* 让容器在页面中水平居中 */
+}
+
+.product1div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+    border: 1px solid #ccc; /* Optional, for visual effect */
+    margin: 30px 0; /* Optional, for visual effect */
+    width: fit-content; /* Adapt the width of the container to the contents */
+}
+
+.product1div img {
+    max-width: 300px; /* Limit the maximum width of the image, which can be adjusted as needed */
+    max-height: 300px; /* Limit the maximum height of the image, you can adjust it as you need */
+    width: 300px; /* 设置固定宽度，可根据实际图片尺寸调整，若不想设置固定宽度，也可去掉这行 */
+    margin: 0 auto; /* 让图片在水平方向居中 */
+}
+
+.product1div p {
+    margin-left: 50px; /* Spacing between image and description */
+    color: white; /* Keep text color */
+    flex: 1; /* Let the description take up the remaining space */
+    text-align: center; /* Text Alignment */
+}
+
+.product1div button {
+    margin-left: auto; /* Push the button to the right */
 }
 /* Blog section style */  
 .blog-section {
@@ -140,7 +149,6 @@ body {
 .blog-section h1 {
     margin-top: 0;
 }
-
 .blog-section.subtitle {
     color: #666;
     margin: 20px 0 30px;
@@ -186,6 +194,7 @@ body {
 
 .support-images {
     margin: 20px 0;
+    text-align: center; /* 添加此行，让图片在水平方向居中 */
 }
 
 .support-images img {
@@ -202,4 +211,7 @@ body {
 
 .support-images img:hover {
     transform: scale(1.05); /* Zoom in on mouse hover */
+}
+.product-image-section {
+    text-align: center;
 }
