@@ -114,9 +114,9 @@ div {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 30px;
+    padding: 40px;
     border: 1px solid #ccc; /* Optional, for visual effect */
-    margin: 30px 0; /* Optional, for visual effect */
+    margin: 40px 0; /* Optional, for visual effect */
     width: fit-content; /* Adapt the width of the container to the contents */
 }
 
