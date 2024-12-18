@@ -215,7 +215,6 @@ div {
 .product-image-section {
     text-align: center;
 }
-/* 模态框背景 */
 .modal {
     display: none;
     position: fixed;
@@ -228,7 +227,6 @@ div {
     background-color: rgba(0, 0, 0, 0.4);
 }
 
-/* 模态框内容 */
 .modal-content {
     background-color: #262121;
     margin: 15% auto;
@@ -237,7 +235,6 @@ div {
     width: 80%;
 }
 
-/* 关闭按钮样式 */
 .close {
     color: #aaa;
     float: right;
