@@ -12,7 +12,7 @@ body {
     padding: 10px 0;
 }
 div {
-    text-align: center; /* 使内部的行内块元素（如图片）水平居中 */
+    text-align: center; //
 }
 .navbar {
     list-style-type: none;
@@ -106,8 +106,8 @@ div {
     width: 100%;
 }
 .container {
-    width: 45%; /* 根据实际需求设置容器宽度，也可以是其他合适的值，比如固定像素值等 */
-    margin: 0 auto; /* 让容器在页面中水平居中 */
+    width: 45%; //
+    margin: 0 auto; //
 }
 
 .product1div {
@@ -123,8 +123,8 @@ div {
 .product1div img {
     max-width: 300px; /* Limit the maximum width of the image, which can be adjusted as needed */
     max-height: 300px; /* Limit the maximum height of the image, you can adjust it as you need */
-    width: 300px; /* 设置固定宽度，可根据实际图片尺寸调整，若不想设置固定宽度，也可去掉这行 */
-    margin: 0 auto; /* 让图片在水平方向居中 */
+    width: 300px; //
+    margin: 0 auto; //
 }
 
 .product1div p {
@@ -194,7 +194,7 @@ div {
 
 .support-images {
     margin: 20px 0;
-    text-align: center; /* 添加此行，让图片在水平方向居中 */
+    text-align: center; //
 }
 
 .support-images img {
