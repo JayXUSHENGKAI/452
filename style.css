@@ -106,8 +106,8 @@ div {
     width: 100%;
 }
 .container {
-    width: 45%; //
-    margin: 0 auto; //
+    width: 45%; 
+    margin: 0 auto; 
 }
 
 .product1div {
@@ -123,8 +123,8 @@ div {
 .product1div img {
     max-width: 300px; /* Limit the maximum width of the image, which can be adjusted as needed */
     max-height: 300px; /* Limit the maximum height of the image, you can adjust it as you need */
-    width: 300px; //
-    margin: 0 auto; //
+    width: 300px; 
+    margin: 0 auto; 
 }
 
 .product1div p {
@@ -194,7 +194,7 @@ div {
 
 .support-images {
     margin: 20px 0;
-    text-align: center; //
+    text-align: center; 
 }
 
 .support-images img {
