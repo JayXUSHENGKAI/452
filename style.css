@@ -128,7 +128,7 @@ div {
 }
 
 .product1div p {
-    margin-left: 50px; /* Spacing between image and description */
+    margin-left: 60px; /* Spacing between image and description */
     color: white; /* Keep text color */
     flex: 1; /* Let the description take up the remaining space */
     text-align: center; /* Text Alignment */
