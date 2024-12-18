@@ -4,7 +4,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Product Showcase</title>
     <link rel="stylesheet" href="style.css">
-    </head>
+    <script src="yourScript.js"></script>
+</head>
 <body>
     <div class="navcontain">
         <ul class="navbar">
@@ -19,56 +20,130 @@
     <header>
         <h1>This is our product introduction</h1>
     </header>
+
     <div class="container">
         <div class="product1div">
             <img src="img/product1.jpg" alt="Product 1">
             <p>Description of Product 1.</p>
-            <button id="product1Button" >View Details</button>
+            <button id="product1DetailsButton" onclick="openModal('product1Modal')">View Details</button>
+            <div id="product1Modal" class="modal">
+                <div class="modal-content">
+                    <span class="close" onclick="closeModal('product1Modal')">&times;</span>
+                    <h2>Product 1 Details</h2>
+                    <p>This tech product features advanced technology, integrating state-of-the-art components and innovative algorithms. It enables seamless performance and offers users an enhanced experience in handling complex tasks with remarkable efficiency.</p>
+                </div>
+            </div>
         </div>
         <div class="product1div">
             <img src="img/product2.jpg" alt="Product 2">
             <p>Description of Product 2.</p>
-           <button id="product2Button" >View Details</button>
+            <button id="product2DetailsButton" onclick="openModal('product2Modal')">View Details</button>
+            <div id="product2Modal" class="modal">
+                <div class="modal-content">
+                    <span class="close" onclick="closeModal('product2Modal')">&times;</span>
+                    <h2>Product 2 Details</h2>
+                    <p>Boasting high-performance capabilities, this gadget is designed to operate at an impressive speed. Its powerful processor and optimized software ensure quick response times, making it ideal for multitasking and running resource-intensive applications without any lag.</p>
+                </div>
+            </div>
         </div>
         <div class="product1div">
             <img src="img/product3.jpg" alt="Product 3">
             <p>Description of Product 3.</p>
-            <button id="product3Button" >View Details</button>
+            <button id="product3DetailsButton" onclick="openModal('product3Modal')">View Details</button>
+            <div id="product3Modal" class="modal">
+                <div class="modal-content">
+                    <span class="close" onclick="closeModal('product3Modal')">&times;</span>
+                    <h2>Product 3 Details</h2>
+                    <p>The product comes with a user-friendly interface that is intuitive and easy to navigate. With clearly labeled buttons, straightforward menus, and helpful prompts, even novice users can quickly get the hang of it and start using all its functions effortlessly.</p>
+                </div>
+            </div>
         </div>
         <div class="product1div">
             <img src="img/product4.jpg" alt="Product 4">
             <p>Description of Product 4.</p>
-            <button id="product4Button" >View Details</button>
+            <button id="product4DetailsButton" onclick="openModal('product4Modal')">View Details</button>
+            <div id="product4Modal" class="modal">
+                <div class="modal-content">
+                    <span class="close" onclick="closeModal('product4Modal')">&times;</span>
+                    <h2>Product 4 Details</h2>
+                    <p>It showcases a sleek design, with smooth edges and a modern aesthetic. The streamlined body not only looks stylish but also fits comfortably in the hand or blends seamlessly into any environment, adding a touch of elegance wherever it's placed.
+                </p>
+                </div>
+            </div>
         </div>
         <div class="product1div">
             <img src="img/product5.jpg" alt="Product 5">
             <p>Description of Product 5.</p>
-            <button id="product5Button" >View Details</button>
+            <button id="product5DetailsButton" onclick="openModal('product5Modal')">View Details</button>
+            <div id="product5Modal" class="modal">
+                <div class="modal-content">
+                    <span class="close" onclick="closeModal('product5Modal')">&times;</span>
+                    <h2>Product 5 Details</h2>
+                    <p>Being highly portable and lightweight, this tech item is perfect for people on the go. It can be easily carried in a bag or pocket, allowing users to access its functionality whenever and wherever they need it, without any burden of excessive weight.
+                    </p>
+                </div>
+            </div>
         </div>
         <div class="product1div">
             <img src="img/product6.jpg" alt="Product 6">
             <p>Description of Product 6.</p>
-            <button id="product6Button" >View Details</button>
+            <button id="product6DetailsButton" onclick="openModal('product6Modal')">View Details</button>
+            <div id="product6Modal" class="modal">
+                <div class="modal-content">
+                    <span class="close" onclick="closeModal('product6Modal')">&times;</span>
+                    <h2>Product 6 Details</h2>
+                    <p>Equipped with a long-lasting battery, this device offers extended usage time between charges. Whether you're out for a whole day at work or traveling, you don't have to worry about constantly looking for a power outlet as it can keep up with your busy schedule.</p>
+                </div>
+            </div>
         </div>
         <div class="product1div">
             <img src="img/product7.jpg" alt="Product 7">
             <p>Description of Product 7.</p>
-            <button id="product7Button" >View Details</button>
+            <button id="product7DetailsButton" onclick="openModal('product7Modal')">View Details</button>
+            <div id="product7Modal" class="modal">
+                <div class="modal-content">
+                    <span class="close" onclick="closeModal('product7Modal')">&times;</span>
+                    <h2>Product 7 Details</h2>
+                    <p>The product features a high-resolution display that presents vivid and sharp images. With excellent color accuracy and clarity, it makes viewing content like videos, photos, or documents a truly immersive and enjoyable experience.</p>
+                </div>
+            </div>
         </div>
         <div class="product1div">
             <img src="img/product8.jpg" alt="Product 8">
             <p>Description of Product 8.</p>
-            <button id="product8Button" >View Details</button>
+            <button id="product8DetailsButton" onclick="openModal('product8Modal')">View Details</button>
+            <div id="product8Modal" class="modal">
+                <div class="modal-content">
+                    <span class="close" onclick="closeModal('product8Modal')">&times;</span>
+                    <h2>Product 8 Details</h2>
+                    <p>Constructed with high-quality materials, this tech product is robust and durable. It can withstand accidental drops, bumps, and daily wear and tear, ensuring a long lifespan and reliable performance over time, making it a worthy investment.
+                    </p>
+                </div>
+            </div>
         </div>
         <div class="product1div">
             <img src="img/product9.jpg" alt="Product 9">
             <p>Description of Product 9.</p>
-            <button id="product9Button" >View Details</button>
+            <button id="product9DetailsButton" onclick="openModal('product9Modal')">View Details</button>
+            <div id="product9Modal" class="modal">
+                <div class="modal-content">
+                    <span class="close" onclick="closeModal('product9Modal')">&times;</span>
+                    <h2>Product 9 Details</h2>
+                    <p>It has versatile functionality, serving multiple purposes. From basic tasks like communication and information access to more specialized functions depending on its type (e.g., photography for cameras, work for laptops), it adapts to various user needs with ease.</p>
+                </div>
+            </div>
         </div>
         <div class="product1div">
             <img src="img/product10.jpg" alt="Product 10">
             <p>Description of Product 10.</p>
-            <button id="product10Button" >View Details</button>
+            <button id="product10DetailsButton" onclick="openModal('product10Modal')">View Details</button>
+            <div id="product10Modal" class="modal">
+                <div class="modal-content">
+                    <span class="close" onclick="closeModal('product10Modal')">&times;</span>
+                    <h2>Product 10 Details</h2>
+                    <p>This gadget offers seamless wireless connectivity options such as Wi-Fi, Bluetooth, or NFC. This enables easy connection to other devices like smartphones, printers, or headphones, facilitating quick data transfer and hassle-free sharing of content.</p>
+                </div>
+            </div>
         </div>
     </div>
 
@@ -77,5 +152,6 @@
     </footer>
 </body>
 </html>
+
 
 
