@@ -19,12 +19,14 @@
     <header>
         <h1>This is our product introduction</h1>
     </header>
-
+function goToProductDetails(url) {
+    window.location.href = url;
+}
     <div class="container">
         <div class="product1div">
             <img src="img/product1.jpg" alt="Product 1">
             <p>Description of Product 1.</p>
-            <button>View Details</button>
+            <button onclick="goToProductDetails('product1-details.html')">View Details</button>
         </div>
         <div class="product1div">
             <img src="img/product2.jpg" alt="Product 2">
